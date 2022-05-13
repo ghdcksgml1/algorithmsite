@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d7307c4-84e2-463a-95a6-13a10ad31934" name="Changes" comment="feat : User,Board엔티티 연관관계분리, 공지사항 페이징처리">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,11 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layout/bodyHeader.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/problem.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/problem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/bodyHeader.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/problem.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/problem.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,6 +254,8 @@
       <workItem from="1651656906454" duration="527000" />
       <workItem from="1651681654501" duration="8585000" />
       <workItem from="1652279837078" duration="8961000" />
+      <workItem from="1652289127319" duration="382000" />
+      <workItem from="1652322533237" duration="2214000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 공지사항 구현, Header,Footer 분리">
       <created>1651640909705</created>

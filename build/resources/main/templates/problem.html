@@ -65,7 +65,7 @@
             </div>
             <div id="problems"></div>
         </div>
-        <div class="col" style="">
+        <div class="col" style="border-left:1px solid #cccccc;">
             <div style="height: 800px;
     background-image: url(../img/bg_logo.png);
     background-size: 50rem;
@@ -73,7 +73,18 @@
     background-origin: content-box;
     padding-top: 15rem;
     opacity: 10%;"></div>
-            <div style="position: fixed; top:15em; right:20em;">
+
+            <div style="position: fixed; top:10em; right:2em;height:500px;overflow: scroll">
+                <div style="color: gray; font-weight: bold; font-size: 30px; padding-left:24px">
+                    <div style="font-weight: bold;
+    color: white;
+    background-color: rgb(13, 19, 70);
+    width: 11rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-radius: 10px;margin-bottom: 20px;">TodoList</div>
+                    <label>현재 시간 &nbsp&nbsp&nbsp</label><label id="clock"></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label style="font-size: 20px;color: #1496DF">추가한 문제 개수 : </label><label style="font-size: 20px;color: #1496DF">0개</label>
+                </div>
                 <div class="container">
                     <div class="box">
                         <div>gkdl</div>
@@ -125,6 +136,23 @@
                 }
             })
     });
+
+    const clockTitle = document.querySelector("#clock");
+
+    function getTime(){
+        const date = new Date();
+        const hours = (date.getHours()<10?'0':'') + date.getHours();
+        const minutes = (date.getMinutes()<10?'0':'') + date.getMinutes();
+        const seconds = (date.getSeconds()<10?'0':'') + date.getSeconds();
+        clockTitle.innerText = `${hours}:${minutes}:${seconds}`;
+    }
+
+    function init(){
+        getTime();
+        setInterval(getTime,1000);
+    }
+
+    init();
 
     window.onload(
         fetch("https://solved.ac/api/v3/search/problem?query=&page=1")
